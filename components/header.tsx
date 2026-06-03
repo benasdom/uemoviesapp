@@ -10,8 +10,10 @@ const Header = () => {
      <View className='flex flex-row justify-between mt-[35]' >
 
     <View className='flex flex-row items-center justify-center p-2 ' >
+        <Text style={{fontWeight:"800"}} className='ml-[30px] flex flex-row font-heading text-4xl items-center text-sm justify-center text-[white] tracking-wider' >UE</Text>
+
         <Image className='w-[40] h-[40] rounded-full ml-[5] mr-[5]' source={images.logo}/>
-        <Text style={{fontWeight:"800"}} className='flex flex-row text-4xl items-center text-sm justify-center text-[white] tracking-wider' >Uemovies</Text>
+        <Text style={{fontWeight:"800"}} className='flex flex-row font-heading text-4xl items-center text-sm justify-center text-[white] tracking-wider' >MOVIES</Text>
     </View>
     <View className='flex flex-row w-[100] justify-around items-center'>
       
@@ -29,12 +31,7 @@ const Header = () => {
 </TouchableOpacity>
     </View>
     </View>
-    <View className="flex flex-row h-[50] items-center p-2 ">
-      <Text className='p-2 text-[white] '>Trending</Text>
-      <Text className='p-2 text-[white] '>Popular</Text>
-      
-
-    </View>
+  
    </View>
 
   )

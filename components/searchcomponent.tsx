@@ -14,6 +14,8 @@ const SearchComponent = ({placeholder,onPress,value,onChangeText}:Props) => {
                onPress={onPress}
                placeholder={placeholder}
                value={value}
+               keyboardType="default"
+               returnKeyType="search"
                onChangeText={onChangeText}
                className=' ml-[20] mr-[20] text-[white] pl-[20px] mr-[20] rounded-xl bg-secondary h-[50]'
                placeholderTextColor={'grey'}
